@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.title("Anlık Hava Durumu")
-st.write("Bu web uygulaması EMİR KAPLAN taranfından gelişririlmiştir.")
+st.write("Bu web uygulaması EMİR KAPLAN tarafından gelişririlmiştir.")
 
 sehir = st.text_input("Şehir adı girin")
 api_key = "91bba1402c696564eb6d03533eb37dfe"
